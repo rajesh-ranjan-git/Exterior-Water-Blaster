@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" src="../css/bootstrap.css">
+		<script src="../js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		
+		<script>
+			var expanded = false;
+
+			function showCheckboxes() {
+  				var checkboxes = document.getElementById("checkboxes");
+				if (!expanded) {
+			    	checkboxes.style.display = "block";
+			    	expanded = true;
+				} else {
+			    checkboxes.style.display = "none";
+			    expanded = false;
+  				}
+			}	
+		</script>
+
+		<style>
+			.selectBox {
+				position: relative;
+			}
+
+			.selectBox select {
+				width: 100%;
+			}
+
+			.overSelect {
+			  position: absolute;
+			  left: 0;
+			  right: 0;
+			  top: 0;
+			  bottom: 0;
+			}
+
+			#checkboxes {
+			  display: none;
+			  border: 1px #dadada solid;
+			}
+
+			#checkboxes label {
+			  display: block;
+			}
+
+			#checkboxes label:hover {
+			  background-color: white;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="container-fluid container-fluid-1">
+			<div class="container container-1">
+				<div class="row row-1">
+					<div class="col-md-7 col-sm-7 col-xs-12">
+						<img src="media/logo.png" class="img-responsive logo"></img>
+					</div>
+					<div class="col-sm-5 col-xs-12 call-1">
+						<center><button class="button call-button-1">
+							<img src="media/phone.png" class="img-responsive phone"></img>
+							<span class="call-span">Call Now-021963333</span>
+						</button></center>
+					</div>					
+				</div>
+				
+				<div class="row row-2">
+					<div class="col-sm-8 col-xs-12 heading-div">
+						<span class="heading">WE DO BEST WATERBLASTING SERVICES</span>
+					</div>
+				</div>
+					
+				<div class="row row-3">
+					<div class="col-sm-4 col-xs-12 guarantee">
+						<center><img src="media/guarantee.png" class="img-responsive guarantee-img"></img></center>
+					</div>
+					
+					<div class="col-sm-5 col-xs-12 choose-list">
+						<ul class="choose">
+							<span class="choose-span">WHY CHOOSE US?</span><br><br>
+							<li>
+								<i class="fa fa-check-circle tick" aria-hidden="true"></i>
+								Qualified Technicians
+							</li>
+							<li>
+								<i class="fa fa-check-circle tick" aria-hidden="true"></i>
+								Fully Insured & Bonded
+							</li>
+							<li>
+								<i class="fa fa-check-circle tick" aria-hidden="true"></i>
+								Free Quote & Advice
+							</li>
+							<li>
+								<i class="fa fa-check-circle tick" aria-hidden="true"></i>
+								7 Days Services
+							</li>
+							<li>
+								<i class="fa fa-check-circle tick" aria-hidden="true"></i>
+								Eco Friendly
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid container-fluid-2">
+			<div class="container container-2">
+				<div class="col-sm-3 form-button">
+					<div class="col-md-12 col-sm-12 col-xs-12 form">
+						<center><span class="form-heading">Get a <span class="get-quote">FREE QUOTE</span> Now!</span></center><br>
+						<form action="/action_page.php" method="post">
+							<div class="row">
+								<input type="text" class="input" id="name" name="name" placeholder="Your Name">
+							</div>
+							<div class="row">
+								<input type="text" class="input" id="email" name="email" placeholder="Email">
+							</div>
+							<div class="row">
+								<input type="text" class="input" id="phone" name="phone" placeholder="Phone">
+							</div>
+							<div class="row">
+								<div class="selectBox" onclick="showCheckboxes()">
+									<select class="input" id="service" name="service" placeholder="Services You Want">
+										<option value="services">Services You Want</option>
+									</select>
+							      <div class="overSelect"></div>
+							    </div>
+							    <div id="checkboxes">
+							      <label for="one">
+							        <input type="checkbox" id="one" value="House Washing"/>House Washing</label>
+							      <label for="two">
+							        <input type="checkbox" id="two" value="Window Cleaning"/>Window Cleaning</label>
+							      <label for="three">
+							       	<input type="checkbox" id="three" value="Roof Cleaning / Roof Treatment"/>Roof Cleaning / Roof Treatment</label>
+							      <label for="four">
+							       	<input type="checkbox" id="four" value="Gutter Cleaning"/>Gutter Cleaning</label>
+							      <label for="five">
+							       	<input type="checkbox" id="five" value="Driveway Cleaning"/>Driveway Cleaning</label>
+							      <label for="six">
+							       	<input type="checkbox" id="six" value="Deck Cleaning"/>Deck Cleaning</label>
+							    </div>
+							</div>
+							<div class="row">
+								<input type="text" class="input" id="message" name="" placeholder="Location">
+							</div>
+							<div class="row">
+								<textarea class="input" id="message" name="" placeholder="Message"></textarea>
+							</div>
+							<input type="submit" class="submit-button" value="SUBMIT">
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-12 col-xs-12">
+					<h2 class="service-heading"><br>OUR SERVICES</h2>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 clean-list">
+					<img src="media/simg-1.png" class="img-responsive image"></img><br>
+					<img src="media/circle.png" class="img-responsive circle"></img>
+					<img src="media/slogo-1.png" class="img-responsive slogo-1"></img>
+					<span class="clean-caption-1">HOUSE WASHING</span>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12 clean-list">
+					<img src="media/simg-2.png" class="img-responsive image"></img><br>
+					<img src="media/circle.png" class="img-responsive circle"></img>
+					<img src="media/slogo-2.png" class="img-responsive slogo-2"></img>
+					<span class="clean-caption-2">WINDOW CLEANING</span>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12 clean-list">
+					<img src="media/simg-3.png" class="img-responsive image"></img><br>
+					<img src="media/circle.png" class="img-responsive circle"></img>
+					<img src="media/slogo-3.png" class="img-responsive slogo-3"></img>
+					<span class="clean-caption-3">ROOF CLEANING/ROOF TREATMENT</span>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12 clean-list">
+					<img src="media/simg-4.png" class="img-responsive image"></img><br>
+					<img src="media/circle.png" class="img-responsive circle"></img>
+					<img src="media/slogo-4.png" class="img-responsive slogo-4"></img>
+					<span class="clean-caption-4">GUTTER CLEANING</span>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12 clean-list">
+					<img src="media/simg-5.png" class="img-responsive image"></img><br>
+					<img src="media/circle.png" class="img-responsive circle"></img>
+					<img src="media/slogo-5.png" class="img-responsive slogo-5"></img>
+					<span class="clean-caption-5">DRIVEWAY CLEANING</span>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12 clean-list">
+					<img src="media/simg-6.png" class="img-responsive image"></img><br>
+					<img src="media/circle.png" class="img-responsive circle"></img>
+					<img src="media/slogo-6.png" class="img-responsive slogo-6"></img>
+					<span class="clean-caption-6">DECK CLEANING</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid container-fluid-3">
+			<div class="container container-3">
+				<div class="row para-foot">
+					<p class="para">
+						Dedicated to supplying our customers with great service as well as high-quality finish at low prices.<br>
+						We pride ourselves in completing the job up to the standards that are acceptable to you the customer and if your not happy then we are not happy. 
+						We will not the payment utill the job is 100%. Dedicated to supply our customers with great service as well as high-quality finish at low prices.
+					</p>
+					<p class="para">
+						<img src="media/phone-white.png" class="img-responsive phone-2"></img>
+						<span class="call-foot-span-1">Call Now for FREE Estimate</span> <span class="call-foot-span-2">021963333</span>
+					</p>					
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid container-fluid-4">
+			<div class="container container-4">
+				<center><button class="button button-quote">
+					GET A FREE QUOTE NOW!
+				</button></center>
+			</div>
+		</div>
+	</body>
+</html>

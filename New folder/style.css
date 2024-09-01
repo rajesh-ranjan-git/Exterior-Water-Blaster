@@ -1,0 +1,274 @@
+
+.container-fluid-1 {
+	background-image:url(media/background-1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:600px;
+	z-index:-2;	
+}
+
+.phone-1 {
+	padding-left:20px;
+	float:left;
+}
+
+.call {
+	margin-bottom:56px;
+}
+
+.call-button {
+	text-align:center;
+	font-weight:bold;
+	background-image:url(media/button-back.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:0px;
+	border-radius:5px;
+	font-size:22px;
+	width:110%;
+	margin-left:-15px;
+	border-top-right-radius:0px;
+	border-top-left-radius:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.row-2 {
+	margin-top:60px;
+}
+
+.heading {
+	font-size:60px;
+	color:white;
+	font-weight:bold;
+}
+
+.row-3 {
+	margin-left:20px;
+}
+
+.choose-list {
+	margin-left:20px;
+}
+
+.guarantee {
+	padding:50px;
+}
+
+.guarantee-img {
+	width:35%;
+	height:35%;
+}
+
+.choose-list {
+	
+}
+
+.choose-span {
+	color:rgb(46,141,220);
+}
+
+.choose {
+	list-style-type:none;
+	font-size:22px;
+	font-weight:bold;
+	background-color:white;
+	padding:25px;
+	line-height:20px;
+	height:243px;
+	z-index:-2;
+}
+
+.choose li {
+	font-size:15px;
+	word-spacing:5px;
+}
+
+.tick {
+	color:rgb(46,141,220);
+}
+
+.form-button {
+	position:absolute;
+	transform: translate(218%, -99.9%);
+	
+}
+
+.form {
+	background-color:rgb(46,141,220);
+	padding:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border:2px solid white;
+	border-radius:8px;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom:none;
+	z-index:+5;
+}
+
+.form-heading {
+	font-weight:bold;
+	color:white;
+	font-size:20px;
+}
+
+.get-quote {
+	color:rgb(244,232,41);
+}
+
+.input {
+	padding:10px;
+	margin:5px;
+	margin-left:0px;
+	width:100%;
+	color:black;
+}
+
+.submit-button {
+	text-align:center;
+	font-weight:bold;
+	padding:12px;
+	background-image:url(media/button-back.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:0px;
+	border-radius:5px;
+	width:111%;
+	margin:5px;
+	margin-left:-14px;
+}
+
+.container-fluid-2 {
+	position:relative;
+	background-image:url(media/background-6.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-top:2px solid white;
+	z-index:+3;
+}
+
+.container-2 {
+	height:400px;
+}
+
+.service-heading {
+	text-align:center;
+	color:white;
+	padding:40px;
+	padding-top:20px;
+	font-weight:bold;
+}
+
+.clean-list {
+	padding:0px;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+.circle {
+	position:absolute;
+	transform: translate(205%, -180%); 
+}
+
+.slogo-1 {
+	position:absolute;
+	transform: translate(495%, -330%); 
+}
+
+.slogo-2 {
+	position:absolute;
+	transform: translate(450%, -340%);
+}
+
+.slogo-3 {
+	position:absolute;
+	transform: translate(345%, -580%); 
+}
+
+.slogo-4 {
+	position:absolute;
+	transform: translate(610%, -360%); 
+}
+
+.slogo-5 {
+	position:absolute;
+	transform: translate(370%, -360%); 
+}
+
+.slogo-6 {
+	position:absolute;
+	transform: translate(450%, -310%); 
+}
+
+.container-fluid-3 {
+	background-image:url(media/background-5.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	height:250px;
+}
+
+.para-foot {
+	margin:50px;
+}
+
+.para {
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	padding:10px;
+	
+}
+
+.call-foot {
+	text-align:center;
+	color:white;
+}
+
+.call-foot-span-1 {
+	font-weight:bold;
+	font-size:24px;
+	margin-left:-210px;
+}
+
+.call-foot-span-2 {
+	color:rgb(244,232,41);
+	font-weight:bold;
+	font-size:24px;
+}
+
+.phone-2 {
+	margin-left:250px;
+	margin-top:50px;
+}
+
+.container-4 {
+	margin-top:40px;
+	margin-bottom:50px;
+}
+
+.button-quote {
+	text-align:center;
+	font-weight:bold;
+	font-size:22px;
+	padding:12px;
+	padding-right:50px;
+	padding-left:50px;
+	background-image:url(media/button-back.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:0px;
+	border-radius:5px;
+}
+
+/*------------------------------------------------------------------------------MEDIA QUERY----------------------------------------------------------*/
+
+@media screen and (max-width: 1250px) and (min-width: 1200px){
+	
+}
+
